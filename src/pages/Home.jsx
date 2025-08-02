@@ -8,7 +8,7 @@ import { ContactSection } from "../components/ContactSection";
 import { Footer } from "../components/Footer";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import { HeroSection } from "../components/heroSection";
+import { HeroSection } from "../components/HeroSection";
 
 
 export const Home = () => {
