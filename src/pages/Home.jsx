@@ -6,7 +6,9 @@ import { AboutSection } from "../components/AboutSection";
 import { SkillsSection } from "../components/SkillsSection";
 import { ProjectsSection } from "../components/ProjectsSection";
 import { ContactSection } from "../components/ContactSection";
-import { Footer } from "../components/Foooter";
+import { Footer } from "../components/Footer";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 
 export const Home = () => {
@@ -23,6 +25,7 @@ export const Home = () => {
             <ContactSection />
         </main>
         <Footer />
+        <ToastContainer />
         </div>
     );
 };  
